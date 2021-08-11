@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import Base58
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Base58.decodeStringToData("132123132")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
